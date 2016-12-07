@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/battle"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placarPc"
+        />
+
+
+    <ImageView
+        android:src="@drawable/pc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/computador"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:src="@drawable/user2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/jogador"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placarGamer"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pedra"
+        android:id="@+id/pedra"
+        android:onClick="pedra" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="papel"
+        android:id="@+id/papel"
+        android:onClick="papel"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tesoura"
+        android:id="@+id/tesoura"
+        android:onClick="tesoura"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="voltar2"
+        android:background="@drawable/btvoltar"
+        />
+
+</LinearLayout>

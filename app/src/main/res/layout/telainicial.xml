@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/jankenpo"
+    >
+
+    <Button
+        android:layout_width="77dp"
+        android:layout_height="70dp"
+        android:onClick="sair"
+        android:background="@drawable/btsair" />
+
+    <Button
+        android:layout_width="162dp"
+        android:layout_height="53dp"
+        android:onClick="start"
+        android:background="@drawable/btstart2"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sobre"
+        android:text="Sobre"
+        android:layout_gravity="bottom" />
+
+</LinearLayout>
